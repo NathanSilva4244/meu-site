@@ -1,0 +1,67 @@
+
+body{
+    background-image: linear-gradient(135deg,gray,black);
+    height: 100vh;
+}
+
+.fotoNathan{
+    background-image: url(assets/photos/MinhaFoto.jpg);
+    height: 255px;
+    width: 255px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 0% 40%;
+    
+
+
+
+}
+
+h1{
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 33px 0px 27px 0px;
+    text-align: center;
+}
+
+.butonSocial{
+    display: block;
+    border-radius: 50px;
+    width: 255px;
+    height: 40px;
+    background-color: #00000020;
+    color: #ffffffff;
+    font-weight: 500;
+    margin-bottom: 27px;
+    position: relative;
+    cursor: pointer;
+    
+    img{
+        position:absolute;
+        height: 24px;
+        left: 42px;
+        top: 9px;
+    }
+    p{
+        position: absolute;
+        height: 24px;
+        left: 77px;
+        top: 12px;
+        font-size: 1.125rem;
+
+    }
+}
+
+.linkedinButon{
+ background-color: #00000095;
+}
+
+#position{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
